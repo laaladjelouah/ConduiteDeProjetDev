@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>	
+	<meta charset="UTF-8">
+		
+	<title> KanBan </title>
+	
+	<link href="kanban.css" rel="stylesheet" media="screen">
+    </head>
+
+    <body>
+	
+	<section id="user_stories">
+		<h2>Rappel des US</h2>
+		<ul>
+			<li> US2 : En tant que laboratoire, je souhate ajouter un nouvel atelier, afin de permettre aux enseignants de s'y inscire </li>
+			<li> US3 : En tant que laboratoire je souhaire lister mes aterliers afin de les modifier ou les supprimer</li>
+			
+		</ul>
+	</section>
+	
+	<section id="tasks">
+		<h2> Rappel des tâches</h2>
+		<ol>
+			<li> Créer la bdd</li>
+			<li> Créer les requêtes</li>
+			<li> Créer la page Accueil permettant d’afficher la liste de tous les ateliers et proposant à 
+l’utilisateur de modifier un atelier à l’aide d’un bouton se trouvant à côté de chaque 
+atelier.</li>
+			<li> Créer la page Modifier permettant de modifier les informations d’un atelier, de les 
+enregistrer, de supprimer l’atelier ou bien d’annuler la modification et qui renvoie 
+l’utilisateur sur la page Accueil lorsque l’opération est terminée ou annulée. </li>
+			<li> Créer la page Ajout permettant d’ajouter un atelier dans la base de données à l’aide de 
+champs à remplir, d’annuler l’opération et qui renvoie sur la page Accueil lorsque 
+l’opération est terminée ou annulée.</li>
+			<li>Rédiger les tests E2E. Les tests E2E doivent tester l’ajout, la modification, la 
+suppression et le listing des ateliers. </li>
+			<li>Exécuter les tests E2E </li>
+		</ol>
+	
+	</section>
+	<h2> KanBan </h2>
+	<section id ="kanban">
+		<table id="kanban_table" >
+			<tr>
+				<td> </td>
+				<td>Todo</td>
+				<td>OnGoing</td>
+				<td>Done</td>
+			</tr>
+			<tr>
+				<td> ALL </td>
+				<td> 
+					<ul class="todo">
+						<li> T1 - Emilien </li>
+						<li> T2 - Emilien </li>
+						<li> T6 - ? </li>
+						<li> T7 - ? </li>
+					</ul>
+				</td>
+				<td> 
+					<ul class="ongoing">
+					</ul>
+				</td>
+				<td> 
+					<ul class="done">
+					</ul>
+				</td>
+			</tr>
+			
+			<tr>
+				<td> US2 </td>
+				<td> 
+					<ul class="todo">
+						<li> T5 - ? </li>
+					</ul>
+				</td>
+				<td> 
+					<ul class="ongoing">
+					</ul>
+				</td>
+				<td> 
+					<ul class="done">
+					</ul>
+				</td>
+			</tr>
+			
+			<tr>
+				<td> US3 </td>
+				<td> 
+					<ul class="todo">
+						<li> T3 - ? </li>
+						<li> T4 - ? </li>
+						
+					</ul>
+				</td>
+				<td> 
+					<ul class="ongoing">
+					</ul>
+				</td>
+				<td> 
+					<ul class="done">
+					</ul>
+				</td>
+			</tr>			
+			
+		</table>
+	</section>
+
+
+    </body>
+
+</html>
